@@ -1,4 +1,4 @@
-# Skill: AI Token Economy, Compute Optimization & Inference Architecture (Study & Simulation Harness)
+### Skill: AI Token Economy, Compute Optimization & Inference Architecture (Study & Simulation Harness)
 
 
 ## Agent Operational Directive
