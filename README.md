@@ -1,18 +1,23 @@
-# NordicFlow Agentic Curriculum & Architecture Repository
-## Purpose
-This repository serves as the central command hub and agent-operable study harness for **NordicFlow Systems** and its expanding branches (DACH CapEx Software Architecture, Nordic OpEx Automation Agency, and future European localization entities). 
-Instead of static documentation, these markdown files function as **active execution and study skills**. When loaded into an agent harness, the AI transforms from a generic assistant into a rigorous proctor, Socratic tutor, and failure-injection simulation engine.
+# NordicFlow & VeraVox Agentic Curriculum & Localization Hub
+## Purpose & Operational Loop
+This repository serves as a dual-purpose engine:
+1. **An Agent-Operable Study Harness:** AI agents read these files to proctor, simulate, and drill technical and regulatory scenarios.
+2. **A Multilingual Localization Matrix:** A cross-lingual technical glossary spanning 7+ languages for software copy re-engineering under VeraVox.
 ---
-## Repository Structure & Modules
-
-| File Name | Domain Focus | Target Branch / Entity |
-| :--- | :--- | :--- |
-| **`STUDY_STATE.md`** | Persistent cross-session user progress, mastery metrics, and weak-point tracking. | Global Master Repository |
-| **`SKILL_DACH_SOVEREIGN_INFRA.md`** | GDPR, DSGVO, Swiss FADP, EU AI Act compliance, and sovereign infrastructure. | DACH CapEx Branch |
-| **`SKILL_DOCKER_K8S_INFRA.md`** | Dockerfiles, union filesystems, kernel isolation (namespaces, cgroups, seccomp), vanilla Kubernetes, and vClusters. | Core Engineering & CapEx |
-| **`SKILL_EMAIL_GEO_DELIVERABILITY.md`** | DNS mastery, SPF/DKIM/DMARC, custom tracking CNAMEs, mailbox rotation, and Generative Engine Optimization (GEO). | Outbound & GTM Plumbing |
-| **`SKILL_REGIONAL_GTM.md`** | Regional positioning matrix (DACH, US, France, Italy), diagnostic "Mechanic" vs. "Wizard" messaging, and Fachbegriffe. | Multi-Branch Go-To-Market |
-
+## 1. Agent Boot Sequence & State Integration
+When initiating an agent session, execute the following boot sequence:
+1. **Read State:** Load `STUDY_STATE.md` to parse current mastery metrics and identified weak points.
+2. **Calibrate Difficulty:** Set the Socratic proctoring level (1 to 5) based on the user's recorded mastery score for the selected module.
+3. **Execute Drill:** Inject failure scenarios targeting the active study queue.
+4. **Update State:** Upon session completion, append new mastery scores and weak points back into `STUDY_STATE.md`.
 ---
-## Agent Loading Instructions
-To initialize a study session, load the root `README.md` along with the specific `SKILL_*.md` module and `STUDY_STATE.md` into your agent runtime. The agent will read your current mastery level and initiate interactive scenario testing.
+## 2. Repository Architecture
+
+| File Name | Domain Focus |
+| :--- | :--- |
+| **`STUDY_STATE.md`** | Persistent cross-session progress tracker and weak-point registry. |
+| **`SKILL_DACH_SOVEREIGN_INFRA.md`** | GDPR, DSGVO, Swiss FADP, EU AI Act compliance & sovereign infrastructure. |
+| **`SKILL_DOCKER_K8S_INFRA.md`** | Containerization, kernel isolation (cgroups, seccomp), and vanilla Kubernetes. |
+| **`SKILL_EMAIL_GEO_DELIVERABILITY.md`** | DNS engineering, SPF/DKIM/DMARC, CNAME alignment, and GEO optimization. |
+| **`SKILL_REGIONAL_GTM.md`** | Regional positioning, "Mechanic" vs. "Wizard" copy, and Fachbegriffe. |
+| **`SKILL_MULTILINGUAL_TERMINOLOGY.md`** | Cross-searching technical concepts across English, Spanish, German, Portuguese, Italian, French, and Japanese. |
