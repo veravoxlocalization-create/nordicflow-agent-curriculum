@@ -1,4 +1,3 @@
-# NordicFlow & VeraVox Agentic Curriculum & Localization Hub
 ## Purpose & Operational Loop
 This repository serves as a dual-purpose engine:
 1. **An Agent-Operable Study Harness:** AI agents read these files to proctor, simulate, and drill technical and regulatory scenarios.
